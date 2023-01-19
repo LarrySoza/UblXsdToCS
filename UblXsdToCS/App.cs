@@ -27,11 +27,11 @@ namespace UblXsdToCS
             //public static string includeFolder = Path.GetFullPath("..\\Xsd2.1\\common");
 
             //Genera UBL 2.0
-            Generar("..\\Xsd2.0\\maindoc", "..\\Xsd2.0\\common", "GasperSoft.Ubl", "Ubl.cs");
+            Generar("..\\Xsd2.0\\maindoc", "..\\Xsd2.0\\common", "GasperSoft.SUNAT.UBL.V1", "Ubl.cs");
             Console.WriteLine();
 
             //Genera UBL 2.1
-            Generar("..\\Xsd2.1\\maindoc", "..\\Xsd2.1\\common", "GasperSoft.Ubl.V2", "UblV2.cs");
+            Generar("..\\Xsd2.1\\maindoc", "..\\Xsd2.1\\common", "GasperSoft.SUNAT.UBL.V2", "UblV2.cs");
             Console.WriteLine("Presione una tecla para continuar...");
 
             Console.ReadKey();
